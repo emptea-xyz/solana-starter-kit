@@ -18,30 +18,30 @@ If you're running Windows and want to use Ubuntu , you have two options:
 We use Rust to develop Solana programs. 
 
 #### Install on Ubuntu 
-1. `sudo apt install curl`- install cURL.
+1. `sudo apt install curl` - install cURL.
 2. restart terminal
 3. `curl --version`- check if it's installed correctly
-4. `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`- install rust
+4. `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` - install rust
 5. restart terminal
-6. `rustc --version`- check if it's installed correctly
+6. `rustc --version` - check if it's installed correctly
 7. Let's go!
 If Rust isn't working check your PATH-system variables by entering: `echo $PATH` 
 and make sure Rust is in there. 
 If it's still not working, get in the discord to ask for help.
 
 #### Install on MacOS 
-1. `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null`- install brew.
+1. `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null` - install brew.
 3. restart terminal
-4. `brew install curl`-install cURL. 
+4. `brew install curl` - install cURL. 
 5. restart terminal
-6. `curl --version`- check if it's installed correctly
-7. `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`- install rust
+6. `curl --version` - check if it's installed correctly
+7. `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` - install rust
 8. restart terminal
-9. `rustc --version`- check if it's installed correctly
+9. `rustc --version` - check if it's installed correctly
 10. Let's go!
 If Rust isn't working check your PATH-system variables by entering: `echo $PATH` 
 and make sure Rust is in there. 
-If it's still not working, get in the discord to ask for help.
+If it's still not working, get in the [Rust Discord](https://discord.gg/rust-lang) to ask for help.
 
 #### install on Windows
 
